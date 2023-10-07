@@ -5,10 +5,10 @@ jobs:
     docker:
       - image: cimg/python:3.11
     steps:
-      - checkout:
+      - checkout
       - run: python main.py
 
 workflows:
-  build:
+  build_and_test_deploy:
     jobs:
       - build
