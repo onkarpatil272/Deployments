@@ -36,6 +36,7 @@ workflows:
 notifications:
   webhooks:
     - url: https://hooks.slack.com/services/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  
+      on_success: always
 
 
 
