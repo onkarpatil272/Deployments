@@ -35,7 +35,7 @@ workflows:
               only: main    
 notifications:
   webhooks:
-    - url: slack   
+    - url: https://hooks.slack.com/services/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  
 
 
 
